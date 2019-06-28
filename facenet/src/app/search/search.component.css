@@ -1,0 +1,19 @@
+.search{
+  margin-top: 10vw;
+width: 80vw;
+margin-left: 15vw;
+}
+
+.searchInput{
+      width: 70vw;
+      border-color: #1583F3;
+}
+
+button{
+  background-color: #1583F3;
+  color: white;
+}
+
+button:hover{
+  background-color: #56A6F7;
+}

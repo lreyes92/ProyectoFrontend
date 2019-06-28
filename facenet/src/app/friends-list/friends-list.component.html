@@ -1,3 +1,7 @@
-<p>
-  friends-list works!
-</p>
+<div class="friend-list">
+  <ul id="histories">
+    <li *ngFor="let friend of myFriends" class="friend">
+      <app-friend [friend]="friend"></app-friend>
+    </li>
+  </ul>
+</div>

@@ -122,5 +122,17 @@
         }
       ]
     }
+  ],
+  "friends":[
+    {
+      "idUser":1,
+      "idFriend":2,
+      "status":"friend"
+    },
+    {
+      "idUser":1,
+      "idFriend":4,
+      "status":"pending"
+    }
   ]
 }

@@ -20,6 +20,12 @@ import { PersonalDataComponent } from './personal-data/personal-data.component';
 import { FriendsListComponent } from './friends-list/friends-list.component';
 import { FriendComponent } from './friend/friend.component';
 import { MyHistoriesComponent } from './my-histories/my-histories.component';
+import { MyfriendsComponent } from './myfriends/myfriends.component';
+import { SearchComponent } from './search/search.component';
+import { FriendInfoComponent } from './friend-info/friend-info.component';
+import { YesFriendComponent } from './yes-friend/yes-friend.component';
+import { NoFriendComponent } from './no-friend/no-friend.component';
+import { FriendService } from './friend/friend.service';
 
 
 @NgModule({
@@ -36,7 +42,12 @@ import { MyHistoriesComponent } from './my-histories/my-histories.component';
     PersonalDataComponent,
     FriendsListComponent,
     FriendComponent,
-    MyHistoriesComponent
+    MyHistoriesComponent,
+    MyfriendsComponent,
+    SearchComponent,
+    FriendInfoComponent,
+    YesFriendComponent,
+    NoFriendComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +56,7 @@ import { MyHistoriesComponent } from './my-histories/my-histories.component';
     routing
 
   ],
-  providers: [UserLoggedService, UserService],
+  providers: [UserLoggedService, UserService,FriendService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
