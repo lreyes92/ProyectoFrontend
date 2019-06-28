@@ -1,0 +1,25 @@
+.user {
+  width: 80vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
+  background: url('../../assets/fondo-user.jpg')no-repeat;
+  background-size: cover;
+}
+
+.imagen {
+  position: relative;
+  top: 6vw;
+  left: 3vw;
+}
+
+img {
+  border-style: outset;
+  width: 20vw;
+  background-color: white;
+}
+
+.name {
+  position: relative;
+  top: 11vw;
+  left: 4vw;
+}

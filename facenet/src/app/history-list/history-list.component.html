@@ -1,0 +1,8 @@
+<div class="history-list myHistories">
+  <ul id="histories">
+
+    <li *ngFor="let user of myUsers" class="history">
+      <app-history [user]="user"></app-history>
+    </li>
+  </ul>
+</div>

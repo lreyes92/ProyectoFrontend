@@ -1,0 +1,16 @@
+<div class="history" *ngFor="let story of user.histories">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img [src]="user.img" class="card-img img" alt="imagen no encontrada">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{user.name}}{{user.surname}}</h5>
+          <p class="card-text">{{story.history}}</p>
+          <app-event></app-event>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

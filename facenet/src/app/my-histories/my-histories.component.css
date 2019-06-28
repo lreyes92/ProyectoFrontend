@@ -1,0 +1,12 @@
+.history-list {
+  margin-top: 10vw;
+  margin-left: 25vw;
+  height: 20vw;
+  width: 50vw;
+  overflow: auto;
+  margin-bottom: 5vw;
+}
+
+  ul {
+    list-style: none;
+  }

@@ -1,0 +1,15 @@
+.personalData {
+  border-style: inset;
+  width: 80vw;
+  margin: 10vw 0vw 1vw 10vw;
+}
+
+.personalData h1 {
+  width: 30vw;
+  margin: 2vw 0vw 0vw 30vw;
+  text-decoration: underline;
+}
+
+.personalData ul{
+  margin-top: 2vw;
+}

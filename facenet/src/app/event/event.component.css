@@ -1,0 +1,11 @@
+.events{
+  float: right;
+}
+
+img{
+  width: 2vw;
+}
+
+img:hover{
+  width: 2.5vw;
+}

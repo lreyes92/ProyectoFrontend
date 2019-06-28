@@ -1,0 +1,31 @@
+.form {
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 10vw;
+  height: 15vw;
+}
+
+.form fieldset {
+  border: solid gray;
+  height: 100%;
+}
+
+legend {
+  width: 10vw;
+  margin-left: 2vw;
+  padding-left: 1vw;
+}
+
+textarea {
+  margin-left: 3vw;
+  margin-top: 1vw;
+  margin-right: 2vw;
+  max-height: 10vw;
+  width: 90%;
+}
+
+button {
+  position: relative;
+  left: 55vw;
+  top: 2vw;
+}
