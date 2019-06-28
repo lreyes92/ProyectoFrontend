@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FriendService } from '../friend/friend.service';
 import { Friend } from '../entities/friend.model';
-import { User } from '../entities/user.model';
 
 @Component({
   selector: 'app-friends-list',
@@ -11,7 +10,6 @@ import { User } from '../entities/user.model';
 export class FriendsListComponent implements OnInit {
 
   myFriends:Friend[];
-  user:User;
 
   constructor(private friendService:FriendService) { }
 
